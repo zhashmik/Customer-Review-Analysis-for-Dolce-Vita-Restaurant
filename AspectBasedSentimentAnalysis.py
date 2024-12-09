@@ -86,7 +86,7 @@ plt.xlabel('Aspect')
 plt.ylabel('Count')
 plt.show()
 
-# Bar chart for average sentiment scores
+# Bar chart for average sentiment score
 plt.figure(figsize=(10, 5))
 plt.bar(average_sentiments.keys(), average_sentiments.values(), color='orange', alpha=0.7)
 plt.title('Average Sentiment for Aspects')
